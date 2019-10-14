@@ -1,0 +1,4 @@
+/env
+*.json
+/.vscode
+/Theme 1/settings.py

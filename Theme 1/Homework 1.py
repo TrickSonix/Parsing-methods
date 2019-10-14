@@ -1,6 +1,7 @@
 import requests
 import json
 
+#Получение списка репозиториев пользователя на гигхабе
 def user_repos(username):
 
     url = 'https://api.github.com/users/' + username + '/repos'

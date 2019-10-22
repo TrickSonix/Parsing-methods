@@ -1,0 +1,5 @@
+/env
+*.json
+/.vscode
+/Theme 1/settings.py
+/Theme 1/__pycache__

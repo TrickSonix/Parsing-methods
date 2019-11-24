@@ -6,7 +6,7 @@ from avito_parser.items import AvitoParserItem
 class AvitoSpider(scrapy.Spider):
     name = 'avito'
     allowed_domains = ['avito.ru']
-    start_urls = ['https://www.avito.ru/moskva/kvartiry?cd=1']
+    start_urls = ['https://www.avito.ru/moskva/kvartiry']
 
     def parse(self, response: HtmlResponse):
         next_link = response.xpath('//a[contains(@class, "js-pagination-next")]/@href').extract_first()

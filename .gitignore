@@ -2,7 +2,7 @@
 *.json
 /.vscode
 /Theme 1/settings.py
-/Theme 1/__pycache__
+/Theme 1/__pycache__/*.pyc
 *.sqlite
 /Theme 6/instagram/config.py
 /avito_images

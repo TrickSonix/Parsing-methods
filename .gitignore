@@ -4,4 +4,5 @@
 /Theme 1/settings.py
 /Theme 1/__pycache__
 *.sqlite
-/Theme 6/config.py
+/Theme 6/instagram/config.py
+/avito_images
